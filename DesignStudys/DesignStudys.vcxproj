@@ -51,9 +51,14 @@
     </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoreApplication.cpp" />
+    <ClCompile Include="CoreWindow.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CoreApplication.hpp" />
+    <ClInclude Include="CoreWindow.hpp" />
+    <ClInclude Include="typedef.hpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
